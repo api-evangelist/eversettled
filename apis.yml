@@ -1,8 +1,27 @@
 aid: eversettled
 name: Eversettled
-description: Eversettled is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: EverSettled is a digital estate-settlement platform that guides families through
+  the probate process after a death. Positioned between expensive probate attorneys and
+  overwhelming do-it-yourself paperwork, it combines an adaptive, state-specific estate
+  checklist, automated asset discovery across bank accounts, insurance policies and
+  subscriptions, subscription cancellation and debt negotiation, secure document
+  organization, a dedicated human estate-care specialist, and Sage, a 24/7 AI probate
+  assistant. Available across all 50 U.S. states, EverSettled is not a law firm and does
+  not provide legal services. Backed by a $5M seed round led by Emergence Capital with
+  participation from Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/eversettled/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.eversettled.com/landing/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Estate Settlement
+- Probate
+- Estate Planning
+- Legaltech
+- Fintech
+- AI Assistant
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://eversettled.com
+  url: https://www.eversettled.com/
+- type: SignUp
+  url: https://www.eversettled.com/onboarding
+- type: Login
+  url: https://www.eversettled.com/login
+- type: TermsOfService
+  url: https://www.eversettled.com/terms
+- type: PrivacyPolicy
+  url: https://www.eversettled.com/privacy
+- type: Support
+  url: mailto:info@eversettled.com
+- type: DomainSecurity
+  url: security/eversettled-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
